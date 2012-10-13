@@ -1,8 +1,10 @@
+![engine](http://allemandindustries.com/html/images/cartoon-mechanic4.jpg) 
 # Mechanic
 
-TODO: Write a gem description
+Mechanic creates engines the Group Buddies way. It's perfect if you just want to hit the groud running and not worrying on doing those same configuration steps everytime.
 
-## Installation
+Installation
+------------
 
 Add this line to your application's Gemfile:
 
@@ -16,7 +18,8 @@ Or install it yourself as:
 
     $ gem install mechanic
 
-## Usage
+Usage
+-----
 
 TODO: Write usage instructions here
 
@@ -59,7 +62,8 @@ Credits
 
 Mechanic is maintained and funded by [GB - Software As A Service, Lda.](http://groupbuddies.com)
 
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+Mechanic's idea came from thoughtbot's [suspenders](/thoughtbot/suspenders), so some of the code is based
+on it.
 
 License
 -------
