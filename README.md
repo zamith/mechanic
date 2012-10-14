@@ -1,5 +1,5 @@
 ![engine](http://allemandindustries.com/html/images/cartoon-mechanic4.jpg) 
-# Mechanic [<img src="https://secure.travis-ci.org/zamith/mechanic.png" />](http://travis-ci.org/zamith/mechanic)
+# Mechanic [![Build Status](https://secure.travis-ci.org/zamith/mechanic.png)](http://travis-ci.org/zamith/mechanic)
 
 Mechanic creates engines the Group Buddies way. It's perfect if you just want to hit the groud running and not worrying on doing those same configuration steps everytime.
 
