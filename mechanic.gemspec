@@ -26,6 +26,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'bundler', '>= 1.1'
   gem.add_dependency 'hub', '~> 1.10.2'
 
-  gem.add_development_dependency 'cucumber', '~> 1.1.9'
+  gem.add_development_dependency 'cucumber-rails'
   gem.add_development_dependency 'aruba', '~> 0.4.11'
 end
