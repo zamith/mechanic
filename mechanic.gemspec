@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.rdoc_options = ["--charset=UTF-8"]
-  gem.extra_rdoc_files = %w[README.md LICENSE]
+  gem.extra_rdoc_files = %w[README.md]
 
   gem.add_dependency 'rails', '3.2.8'
   gem.add_dependency 'bundler', '>= 1.1'
@@ -28,5 +28,4 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'cucumber', '~> 1.1.9'
   gem.add_development_dependency 'aruba', '~> 0.4.11'
-
 end

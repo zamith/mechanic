@@ -46,7 +46,7 @@ module Mechanic
         build :add_capybara_webkit_gem
       end
 
-      #bundle_command 'install'
+      bundle_command 'install'
     end
 
     def setup_test_database
