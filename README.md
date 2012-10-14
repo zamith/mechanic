@@ -6,7 +6,7 @@ Mechanic creates engines the Group Buddies way. It's perfect if you just want to
 Installation
 ------------
 
-First install the suspenders gem:
+First install the mechanic gem:
 
     gem install mechanic
 
@@ -18,15 +18,14 @@ or
 
     mechanic enginename (same as --full)
 
-This will create a Rails mountable engine in `projectname`. This script creates a new
+This will create a Rails mountable engine in `enginename`. This script creates a new
 new git repository. It is not meant to be used against an existing repo.
 
 Gemfile
 -------
 
-To see the latest and greatest gems, look at Mechanic'
-[templates/gemspec_additions](/zamith/mechanic/blob/master/templates/gemspec_additions),
-which will be appended to the default generated projectname.gemspec.
+To see the latest and greatest gems, look at Mechanic's [templates/gemspec_additions](/zamith/mechanic/blob/master/templates/gemspec_additions),
+which will be appended to the default generated enginename.gemspec.
 
 It includes application gems like:
 
