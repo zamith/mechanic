@@ -6,22 +6,70 @@ Mechanic creates engines the Group Buddies way. It's perfect if you just want to
 Installation
 ------------
 
-Add this line to your application's Gemfile:
+First install the suspenders gem:
 
-    gem 'mechanic'
+    gem install mechanic
 
-And then execute:
+Then run:
 
-    $ bundle
+    mechanic enginename --mountable
+    
+or
 
-Or install it yourself as:
+    mechanic enginename (same as --full)
 
-    $ gem install mechanic
+This will create a Rails mountable engine in `projectname`. This script creates a new
+new git repository. It is not meant to be used against an existing repo.
 
-Usage
------
+Gemfile
+-------
 
-TODO: Write usage instructions here
+To see the latest and greatest gems, look at Mechanic'
+[templates/gemspec_additions](/zamith/mechanic/blob/master/templates/gemspec_additions),
+which will be appended to the default generated projectname.gemspec.
+
+It includes application gems like:
+
+* [Formtastic](/justinfrench/formtastic) for form markup and style
+* [SASS](/rails/sass-rails) for stylesheets
+
+And development gems like:
+
+* [Thin](/macournoyer/thin) for an HTTP Server
+* [Capybara](/jnicklas/capybara) and
+  [Capybara Webkit](/thoughtbot/capybara-webkit) for integration testing
+* [Jasmine](/searls/jasmine-rails) for JS unit testing
+* [RSpec](https://github.com/rspec/rspec) for unit testing
+* [Shoulda Matchers](/thoughtbot/shoulda-matchers) for common RSpec matchers
+* [Timecop](/jtrupiano/timecop) for testing time
+
+Other goodies
+-------------
+
+Mechanic also comes with:
+
+* A few nice time formats.
+* An email validator.
+* A default .gitignore file.
+
+Github
+------
+
+You can optionally create a Github repository:
+
+    suspenders app --github organization/project
+
+This has the same effect as running:
+
+    hub create organization/project
+
+Capybara Webkit
+---------------
+
+You can optionally not include Capybara Webkit (which depends on QT being
+installed on your machine):
+
+    suspenders app --webkit false
 
 Dependencies
 ------------
