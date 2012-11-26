@@ -1,4 +1,4 @@
-![engine](http://allemandindustries.com/html/images/cartoon-mechanic4.jpg) 
+![engine](http://allemandindustries.com/html/images/cartoon-mechanic4.jpg)
 # Mechanic [![Build Status](https://secure.travis-ci.org/zamith/mechanic.png)](http://travis-ci.org/zamith/mechanic)
 
 Mechanic creates engines the Group Buddies way. It's perfect if you just want to hit the groud running and not worrying on doing those same configuration steps everytime.
@@ -13,7 +13,7 @@ First install the mechanic gem:
 Then run:
 
     mechanic enginename --mountable
-    
+
 or
 
     mechanic enginename (same as --full)
@@ -56,7 +56,7 @@ Github
 
 You can optionally create a Github repository:
 
-    suspenders app --github organization/project
+    mechanic app --github organization/project
 
 This has the same effect as running:
 
@@ -68,7 +68,7 @@ Capybara Webkit
 You can optionally not include Capybara Webkit (which depends on QT being
 installed on your machine):
 
-    suspenders app --webkit false
+    mechanic app --webkit false
 
 Dependencies
 ------------
